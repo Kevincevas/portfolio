@@ -8,7 +8,7 @@ export default function Contacto() {
       icon: "success",
       title: "Enviando Correo, por favor espere que la página se actualize",
       showConfirmButton: false,
-      timer: 20000
+      timer: 30000
     });
   }
 
