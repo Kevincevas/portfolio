@@ -1,4 +1,17 @@
+import Swal from 'sweetalert2'
+
 export default function Contacto() {
+
+  const submitNotificacion = () => {
+    Swal.fire({
+      position: "top-center",
+      icon: "success",
+      title: "Enviando Correo, por favor espere que la página se actualize",
+      showConfirmButton: false,
+      timer: 20000
+    });
+  }
+
   return (
     <div>
       <section id="contact" className="contact">
@@ -11,25 +24,25 @@ export default function Contacto() {
               <div className="info">
                 <div className="address">
                   <i className="bi bi-geo-alt" />
-                  <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <h4>Ubicación:</h4>
+                  <p>La Tebaida Etapa 2, Salcedo, Cotopaxi, Ecuador</p>
                 </div>
                 <div className="email">
                   <i className="bi bi-envelope" />
                   <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <p>cevas102@gmail.com</p>
                 </div>
                 <div className="phone">
                   <i className="bi bi-phone" />
-                  <h4>Call:</h4>
-                  <p>+1 5589 55488 55s</p>
+                  <h4>Llamar:</h4>
+                  <p>+593 999211428</p>
                 </div>
               </div>
             </div>
             <div className="col-lg-8 mt-5 mt-lg-0">
               <form
-                action="forms/contact.php"
-                method="post"
+                action="https://formsubmit.co/cevas102@gmail.com" 
+                method="POST"
                 role="form"
                 className="php-email-form"
               >
@@ -40,7 +53,7 @@ export default function Contacto() {
                       name="name"
                       className="form-control"
                       id="name"
-                      placeholder="Your Name"
+                      placeholder="Su Nombre"
                       required
                     />
                   </div>
@@ -50,7 +63,7 @@ export default function Contacto() {
                       className="form-control"
                       name="email"
                       id="email"
-                      placeholder="Your Email"
+                      placeholder="Su Email"
                       required
                     />
                   </div>
@@ -61,7 +74,7 @@ export default function Contacto() {
                     className="form-control"
                     name="subject"
                     id="subject"
-                    placeholder="Subject"
+                    placeholder="Asunto"
                     required
                   />
                 </div>
@@ -70,7 +83,7 @@ export default function Contacto() {
                     className="form-control"
                     name="message"
                     rows={5}
-                    placeholder="Message"
+                    placeholder="Mensaje"
                     required
                     defaultValue={""}
                   />
@@ -79,11 +92,14 @@ export default function Contacto() {
                   <div className="loading">Loading</div>
                   <div className="error-message" />
                   <div className="sent-message">
-                    Your message has been sent. Thank you!
+                    Tu mensaje ha sido enviado, gracias!
                   </div>
                 </div>
                 <div className="text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="submit" onClick={ () => submitNotificacion()}>Enviar Mensaje</button>
+                  
+                  <input type="hidden" name="_next" value={'https://kevincevas.github.io/portfolio/'}/>
+                  <input type="hidden" name="_captcha" value={false}/>
                 </div>
               </form>
             </div>

@@ -9,11 +9,11 @@ import Footer from "./components/Footer"
 import Habilidades from "./components/Habilidades"
 import HerramientasPlataformas from "./components/HerramientasPlataformas"
 import LibreriasFrameworks from "./components/LibreriasFrameworks"
-import Navbar from "./components/Navbar"
-
 import PerfilCorto from "./components/PerfilCorto"
 import Portfolio from "./components/Portfolio"
 import Resumen from "./components/Resumen"
+
+
 
 function App() {
   

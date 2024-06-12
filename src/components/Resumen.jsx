@@ -72,7 +72,7 @@ export default function Resumen() {
                             </ul>
                         </div>
                         <div className="resume-item">
-                            <h4>Desarrollador Web</h4>
+                            <h4>Desarrollo Web</h4>
                             <h5>Octubre 2021 - Marzo 2022</h5>
                             <p><em>Centro de Capacitación Élite - CENEPAMIL, Latacunga</em></p>
                             <ul>

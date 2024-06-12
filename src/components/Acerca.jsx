@@ -1,4 +1,6 @@
 
+import foto from '../../public/assets/img/profile-img.jpg'
+
 export default function Acerca() {
   return (
     <div>
@@ -12,7 +14,7 @@ export default function Acerca() {
 
             <div className="row">
                 <div className="col-lg-4">
-                <img src="assets/img/profile-img.jpg" className="img-fluid" alt="" />
+                <img src={foto} className="img-fluid" alt="" />
                 </div>
                 <div className="col-lg-8 pt-4 pt-lg-0 content">
                 {/* UI/UX Designer &amp; */}
@@ -23,8 +25,8 @@ export default function Acerca() {
                 <div className="row">
                     <div className="col-lg-6">
                     <ul>
-                        <li><i className="bi bi-chevron-right"></i> <strong>Fecha de Nacimiento:</strong> <span>1 May 1995</span></li>
-                        <li><i className="bi bi-chevron-right"></i> <strong>Linkedin:</strong> <span>www.example.com</span></li>
+                        <li><i className="bi bi-chevron-right"></i> <strong>Fecha de Nacimiento:</strong> <span>2 Feb 2000</span></li>
+                        <li><i className="bi bi-chevron-right"></i> <strong>Linkedin:</strong> <span><a href="http://www.linkedin.com/in/kevin-cevallos-286221252" target='_blank'>www.linkedin.com</a></span></li>
                         <li><i className="bi bi-chevron-right"></i> <strong>Celular:</strong> <span>+593 999211428</span></li>
                         <li><i className="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Salcedo, Ecuador</span></li>
                     </ul>
