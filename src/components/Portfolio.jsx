@@ -23,6 +23,7 @@ export default function Portfolio() {
                     <p>Proyectos en donde he aplicado los conocimientos adquiridos.</p>
                     </div>
                     <div className="row">
+                    {/*para no mostrar el menu en pantallas pequeñas: d-none d-md-block */}
                         <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay={100}>
                             <ul id="portfolio-flters">
                             <li data-filter="*" className="filter-active">Todo</li>
