@@ -6,8 +6,9 @@ import gift from '../../public/assets/img/portfolio/giftapp.png';
 import crypto from '../../public/assets/img/portfolio/crypto.png';
 import citas from '../../public/assets/img/portfolio/citas.png';
 import heroes from '../../public/assets/img/portfolio/heroes.png';
-import web4 from '../../public/assets/img/portfolio/portfolio-3.jpg';
-import web9 from '../../public/assets/img/portfolio/portfolio-8.jpg';
+import poke from '../../public/assets/img/portfolio/peque-poke.png';
+// import web4 from '../../public/assets/img/portfolio/portfolio-3.jpg';
+// import web9 from '../../public/assets/img/portfolio/portfolio-8.jpg';
 
 
 export default function Portfolio() {
@@ -24,16 +25,16 @@ export default function Portfolio() {
                     <div className="row">
                         <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay={100}>
                             <ul id="portfolio-flters">
-                            <li data-filter="*" className="filter-active">Web</li>
-                            {/* <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li> */}
+                            <li data-filter="*" className="filter-active">Todo</li>
+                            <li data-filter=".filter-react">React</li>
+                            <li data-filter=".filter-vue">Vue</li>
+                            {/* <li data-filter=".filter-laravel">Laravel</li> */}
                             </ul>
                         </div>
                     </div>
 
                     <div className="row portfolio-container" data-aos="fade-up" data-aos-delay={200}>
-                    <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div className="col-lg-4 col-md-6 portfolio-item">
                         <div className="portfolio-wrap">
                             <img src={cenepamil} className="img-fluid" alt={'Proyecto'} />
                             <div className="portfolio-info">
@@ -46,12 +47,12 @@ export default function Portfolio() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div className="col-lg-4 col-md-6 portfolio-item filter-react">
                         <div className="portfolio-wrap">
                         <img src={quiosco} className="img-fluid" alt={'Proyecto'} />
                         <div className="portfolio-info">
                             <h4>Quiosco</h4>
-                            <p>Web</p>
+                            <p>React</p>
                             <div className="portfolio-links">
                                 <a href={quiosco} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus" /></a>
                                 <a href="https://quiosco.netlify.app/" target='_blank' className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link" /></a>
@@ -59,38 +60,38 @@ export default function Portfolio() {
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div className="col-lg-4 col-md-6 portfolio-item filter-react">
                         <div className="portfolio-wrap">
                         <img src={gift} className="img-fluid" alt={'Proyecto'} />
                         <div className="portfolio-info">
                             <h4>GiftApp</h4>
-                            <p>Web</p>
+                            <p>React</p>
                             <div className="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus" /></a>
-                                <a href="portfolio-details.html" target='_blank' className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link" /></a>
+                                <a href={gift} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus" /></a>
+                                <a href="https://gif-kevin.netlify.app/" target='_blank' className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link" /></a>
                             </div>
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div className="col-lg-4 col-md-6 portfolio-item filter-vue">
                         <div className="portfolio-wrap">
-                        <img src={web4} className="img-fluid" alt={'Proyecto'} />
+                        <img src={poke} className="img-fluid" alt={'Proyecto'} />
                         <div className="portfolio-info">
-                            <h4>Card 2</h4>
-                            <p>Card</p>
+                            <h4>Pequeña Página Pokémon</h4>
+                            <p>Vue</p>
                             <div className="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus" /></a>
-                                <a href="portfolio-details.html" target='_blank' className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link" /></a>
+                                <a href={poke} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus" /></a>
+                                <a href="https://peque-poke.netlify.app/pokemons" target='_blank' className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link" /></a>
                             </div>
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div className="col-lg-4 col-md-6 portfolio-item filter-react">
                         <div className="portfolio-wrap">
                         <img src={heroes} className="img-fluid" alt={'Proyecto'} />
                         <div className="portfolio-info">
                             <h4>Web Heroes</h4>
-                            <p>Web</p>
+                            <p>React</p>
                             <div className="portfolio-links">
                                 <a href={heroes} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 2"><i className="bx bx-plus" /></a>
                                 <a href="https://myappheroeapp.netlify.app/" target='_blank' className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link" /></a>
@@ -98,12 +99,12 @@ export default function Portfolio() {
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div className="col-lg-4 col-md-6 portfolio-item filter-react">
                         <div className="portfolio-wrap">
                         <img src={citas} className="img-fluid" alt={'Proyecto'} />
                         <div className="portfolio-info">
-                            <h4>Página de Citas</h4>
-                            <p>Web</p>
+                            <h4>Sitio de Citas Médicas</h4>
+                            <p>React</p>
                             <div className="portfolio-links">
                                 <a href={citas} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 3"><i className="bx bx-plus" /></a>
                                 <a href="https://dates-page.netlify.app/" target='_blank' className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link" /></a>
@@ -111,12 +112,12 @@ export default function Portfolio() {
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div className="col-lg-4 col-md-6 portfolio-item filter-react">
                         <div className="portfolio-wrap">
                         <img src={crypto} className="img-fluid" alt={'Proyecto'} />
                         <div className="portfolio-info">
                             <h4>Cotizador de Cryptomonedas</h4>
-                            <p>Web</p>
+                            <p>React</p>
                             <div className="portfolio-links">
                                 <a href={crypto} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 1"><i className="bx bx-plus" /></a>
                                 <a href="https://crypto-cotizador-kevin.netlify.app/" target='_blank' className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link" /></a>
@@ -124,12 +125,12 @@ export default function Portfolio() {
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div className="col-lg-4 col-md-6 portfolio-item filter-react">
                         <div className="portfolio-wrap">
                         <img src={bebidas} className="img-fluid" alt={'Proyecto'} />
                         <div className="portfolio-info">
                             <h4>Buscador de Bebidas</h4>
-                            <p>Web</p>
+                            <p>React</p>
                             <div className="portfolio-links">
                                 <a href={bebidas} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 3"><i className="bx bx-plus" /></a>
                                 <a href="https://r-find-drink.netlify.app/" target='_blank' className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-link" /></a>
@@ -137,7 +138,7 @@ export default function Portfolio() {
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                    {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div className="portfolio-wrap">
                         <img src={web9} className="img-fluid" alt={'Proyecto'} />
                         <div className="portfolio-info">
@@ -149,7 +150,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                         </div>
-                    </div>
+                    </div> */}
                     </div>
                 </div>
             </section>
