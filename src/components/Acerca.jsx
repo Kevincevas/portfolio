@@ -13,8 +13,8 @@ export default function Acerca() {
             </div>
 
             <div className="row">
-                <div className="col-lg-4">
-                <img src={foto} className="img-fluid" alt="" />
+                <div className="col-lg-4 text-center">
+                    <img src={foto} className="img-fluid" alt="" />
                 </div>
                 <div className="col-lg-8 pt-4 pt-lg-0 content">
                 {/* UI/UX Designer &amp; */}
