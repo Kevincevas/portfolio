@@ -41,10 +41,10 @@ export default function Acerca() {
                     </div>
                 </div>
                 <p>
-                    Aunque todavía no tengo experiencia laboral formal, he dedicado mucho tiempo a aprender y mejorar mis habilidades a través de cursos en línea, proyectos personales.
+                    Aunque todavía no tengo experiencia laboral formal, he dedicado mucho tiempo a aprender y mejorar mis habilidades a través de cursos en línea y proyectos personales.
                     Me fascina la capacidad de la tecnología para resolver problemas y mejorar la vida de las personas, y estoy comprometido a seguir aprendiendo y adaptándome a las nuevas tendencias y tecnologías. 
                     <br />
-                    Actualmente, estoy enfocado en mejorar mis conocimientos en ya sea en el back-end como el en front-end, y estoy constantemente buscando nuevas oportunidades para aplicar lo que he aprendido.
+                    Actualmente, estoy enfocado en mejorar mis conocimientos, ya sea en el back-end como en el front-end, y estoy constantemente buscando nuevas oportunidades para aplicar lo que he aprendido.
                     Cuando no estoy codificando, me gusta leer o ejercitarme, lo que me ayuda a mantenerme creativo y enfocado.
                     Estoy ansioso por contribuir a proyectos desafiantes y colaborar con otros profesionales para crear soluciones innovadoras. 
                     
